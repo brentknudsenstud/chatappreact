@@ -1,0 +1,42 @@
+.users-manager {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 120px);
+}
+
+.users-manager .side-panel {
+    width: 300px;
+    background-color: rgb(246, 246, 246);
+    padding: 16px;
+}
+
+.users-manager .user-panel {
+    flex-grow: 1;
+    padding: 16px;
+}
+
+.users-manager .user-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.users-manager .user-panel .message-area {
+    flex-grow:1;
+}
+
+.users-manager .user-panel .message-area {
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: auto;
+}
+.users-manager .user-panel .message-area li a {
+    cursor: pointer;
+}
+
+.users-manager .user-panel .user-input {
+    height: 80px;
+}
+
+.users-manager .user-panel .user-input {
+    height: 80px;
+}

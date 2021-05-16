@@ -1,0 +1,5 @@
+.direct-message.section ul li span.title > span:not(:last-child)::after {
+    content: ',';
+    display:inline-block;
+    margin-right: 4px;
+}
